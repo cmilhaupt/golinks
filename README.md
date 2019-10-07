@@ -30,6 +30,13 @@ $ brew install golinks
 recent unreleased version from master you'll have to clone the repository
 and build yourself.
 
+### Docker
+
+To startup a container with an image from docker hub, run the following:
+
+```docker run -it -d -p 8000:8000 prologic/golinks
+```
+
 ## Usage
 
 Run golinks:
